@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Input</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name</label>
+        <!-- A propriedade required fa\ com que o usuário preencha o campo de inout -->
+            <input type="text" required>
+            <br><br>
+        <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+         <input type="submit" value="Click">
+            <br><br>
+         <label for="email">Number</label>
+            <input type="number" name="email" id="email" required min="1" max="20" step="4">
+            <br><br>
+              <!-- Input para url -->
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url" placeholder="https//www.kaique@gmail.com">
+            <br><br>
+                <!-- Input de pesquisa -->
+            <label for="search">Search</label>
+            <input type="search" name="search" id="search">
+            <br><br>
+            <!-- Tag de range -->
+            <label for="range">Range</label>
+            <input type="range" name="range" id="range" min="3"
+            max="6">
+            <br><br>
+            <!-- Tag de color -->
+            <label for="color">Color</label>
+            <input type="color" name="color">
+            <br><br>
+            <!-- Tag de date -->
+            <label for="date">Date</label>
+            <input type="date" name="date">
+    </form>
+</body>
+</html>

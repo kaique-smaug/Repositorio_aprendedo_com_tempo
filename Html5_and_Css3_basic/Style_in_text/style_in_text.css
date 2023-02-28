@@ -1,0 +1,15 @@
+.paragraph{
+    /* Font-weight defina o tamanho dele ou o style */
+    font-weight: bold ;
+    font-size: 40px;
+}
+.styleintext{
+    /* Font-style define o estilo do texto como bold , italic etc */
+    font-style: italic;
+    font-size: 40px;
+}
+.decoration{
+    /* Text-decoration define a decoração dele como underline overline */
+    text-decoration: underline;
+    font-size: 40px;
+}

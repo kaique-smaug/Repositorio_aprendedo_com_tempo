@@ -1,0 +1,36 @@
+ul{
+    padding: 0;
+    margin: 0;
+    top: 0%;
+    list-style: none;
+    width: 720px;
+    /* Repeat x fax com que a imagem só repita na horizontal */
+    background: #159cb0 url(/arquivos-necessarios-navegacao-horizontal/arquivos-necessarios-navegacao-horizontal/fundo-horizontal.png )repeat-x;
+    float: left;
+}
+ul>li{
+    float: left;  
+}
+ul a{
+    padding: 0 2em;
+    text-decoration: none;
+    display: block;
+    line-height: 2em;
+    color: white;
+    /* RepeAT Y FAZ COM QUE AS IMAGEM SÓ REPITA NA VERTICAL
+    lEFT FAZ COM QUE O DIVISOR REPITA APARTIR DA ESQUEDA
+    TO FAZ COM QUE REPITA APARTIR DO TOP */     
+    background: url(/arquivos-necessarios-navegacao-horizontal/arquivos-necessarios-navegacao-horizontal/divisor.png) repeat-y left top;
+}
+ul .first a{
+    background: none;
+}
+ul a:hover{
+    background: rgb(2, 107, 243);
+    color: black;
+}
+
+#home #navigation .home a, #about #navigation .about a, #service #navigation .service a, #news #navigation .news a, #contact #navigation .contact a {
+    background: rgb(2, 107, 243);
+    color: black;
+}

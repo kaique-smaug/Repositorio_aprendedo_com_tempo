@@ -1,0 +1,21 @@
+header{
+    border: solid 1px black;
+    background-color: aqua;
+    padding: 20px;
+}
+nav{
+    border: solid 1px black;
+    background-color: blue;
+}
+footer{
+    background-color: brown;
+    text-align: center;
+    margin-top: 10px;
+}
+section {
+    background-color: blueviolet;
+    font-size: 1.3em;
+}
+aside{
+    background-color: yellow;
+}

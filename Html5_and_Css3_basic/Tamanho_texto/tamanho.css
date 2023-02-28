@@ -1,0 +1,14 @@
+/* 
+px = Tamanho fixo
+% = Tamanho relativo
+em = Tamanhp relativo ao container pai 
+100% é o tamanho padrão do broswer*/
+.page{
+    font: 30px;
+}
+.text{
+    font-size: 2em;
+}
+.text2{
+    font-size: 1em;
+}

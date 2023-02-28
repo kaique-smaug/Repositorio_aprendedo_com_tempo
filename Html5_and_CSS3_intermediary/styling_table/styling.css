@@ -1,0 +1,29 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#container {
+    display: flex;
+   justify-content: center;
+}
+#primary  {
+    width: 700px;
+    margin-top: o auto;
+}
+tr:hover{
+    background: #c3e6e5;
+}
+th, td{
+    /* A propriedade border collapse tem as opções de separet the rows or collapse the rows */
+    border-collapse: separate;
+    padding: 8px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+th{
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.toggle{
+    text-align: right;
+}

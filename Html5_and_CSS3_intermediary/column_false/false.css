@@ -1,0 +1,77 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+/* Colimn false não se encaixa em layout liquids, apenas em fixed */
+#container{
+  width: 1000px; /*800px*/
+  margin: 0 auto;
+  background: #fff url(/arquivos-necessarios-coluna-falsa/arquivos-necessarios-coluna-falsa/coluna.png) repeat-y left top;
+  /* A propeiedade min whidht define a largura mínina do content */
+  min-width: 800px;
+  max-width: 1200px;
+}
+#brand{
+   height: 200%; /*100px*/
+   text-align: center;
+   background: #225991 url(/arquivos-necessarios-imagens-liquidas/arquivos-necessarios-imagens-liquidas/cabecalho2.jpg) no-repeat center;
+   line-height: 200px;
+}
+#content{
+    width: 75% ; /*590px*/
+     /*Contente whit navigation oa todo é 770px*/
+    float: right;
+}
+#navigation{
+    width: 22%; /*180px*/
+    float: left;
+   padding: 35px 0;
+   background: #d1d1d1;
+}
+img.image{
+    /* A propiedade overflow escond o content que iltrapassar da page */
+    /* overflow: hidden; */
+    width: 90%;
+    padding: 2%;
+}
+.content-primary{
+    
+    width: 69%;
+    float: left;
+}
+.content-second{
+    background: #fff url();
+    width: 30%;
+    float: right;
+}
+.content-second h1,
+.content-second h2,
+.content-second p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#navigation li {
+    list-style: none;
+}
+#navigation li a {
+   text-decoration: none;
+}
+/* ul{
+    padding: 0;
+   margin: 0;
+} */
+li a{
+    height: 25px;
+    text-indent: 25px;
+    line-height: 25px;
+    display: block;
+}
+a:hover{
+    color: black;
+}
+#footer{
+    padding: 5px;
+    clear: both;
+    text-align: center;
+    background: #c4c4c4;
+}

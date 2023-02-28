@@ -1,0 +1,15 @@
+#content-box {
+    background-color: yellow;
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 10px; 
+    /* A propriedade aplica sombra na caixa */
+    box-shadow: 20px 20px 20px 50px;
+}
+h1, p {
+    /* A propriedade text-shadow aplica sombra nas letras */
+    text-shadow: 10px 10px 5px;
+    color: #fff;
+} 

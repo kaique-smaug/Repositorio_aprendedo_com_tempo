@@ -1,0 +1,43 @@
+/* #border{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+     A propriedade border-radius nos permite colocar bordas de diferentes tamanhos na caixa 
+     border-radius: 10px 20px 40px 90px;
+    -webkit-border-radius: 10px 20px 40px 90px;
+    -moz-border-radius: 10px 20px 40px 90px;
+     border-radius: 10px 20px 40px 90px; 
+     Ao usar a propriedade box-sizeng nos pormite mudar o comportamento da caixa. A largura e altura não será acrescido junto com o padding 
+    box-sizing: border-box;
+    
+     margin: 10px;
+     padding: 50px;
+}
+#border2{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+     A propriedade border-radius nos permite colocar bordas de diferentes tamanhos na caixa 
+     border-radius: 10px 20px 40px 90px;
+    -webkit-border-radius: 10px 20px 40px 90px;
+    -moz-border-radius: 10px 20px 40px 90px;
+     border-radius: 10px 20px 40px 90px; 
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+} */
+  
+#border h1{
+    background: rgba( 255, 255, 255, 0.5);
+}
+#border{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    /* background: url(/arquivos-necessarios-degrades-transparencias/arquivos-necessarios-degrades-transparencias/camera.png); */
+    /* Usando a propriedade linear gradient poemos aplicar um gradiente de cores, também podemos usar osvalores "to left (O gradiente vai começar da esquerda)", " to bottom (o gradiente vai começar do bottom)" e também podemos podemos "rotacionar o gradiente usando valores em graus: 90deg" */
+    /* background: linear-gradient( to left, red, blue, yellow ); */
+    /* background: linear-gradient( 65deg, red, blue, yellow ); */
+    background: radial-gradient( red, green, blue);
+}

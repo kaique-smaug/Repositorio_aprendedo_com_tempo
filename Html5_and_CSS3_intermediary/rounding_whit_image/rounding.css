@@ -1,0 +1,23 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+#box {
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 10px;
+    background: #dede url(/arquivos-necessarios-arredondamento-com-imagens/arquivos-necessarios-arredondamento-com-imagens/fundo-arredondamento.png) repeat-y left;
+}
+#box h2 {
+    padding: 10px 30px 0 20px;
+   background: url(/arquivos-necessarios-arredondamento-com-imagens/arquivos-necessarios-arredondamento-com-imagens/topo2.png) no-repeat left top;
+}
+#box p {
+    padding: 0 20px;
+}
+#box .last {
+    background: url(/arquivos-necessarios-arredondamento-com-imagens/arquivos-necessarios-arredondamento-com-imagens/baixo2.png) no-repeat bottom left;
+    width: 400px;
+    height: 20px;
+    margin: 0;
+}

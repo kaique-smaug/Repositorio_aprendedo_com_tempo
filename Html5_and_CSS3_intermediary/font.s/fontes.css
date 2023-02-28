@@ -1,0 +1,19 @@
+/* Para reconhcer fontes customizadas deve-se usar a propriedade "font-face" */
+@font-face{
+    font-family: "God";
+    /* Para definir onde entá a fonte deve-se usar o "SRC" */
+    src: url(GodOfWar.woff) ;
+}
+/* Depois é só aplicar a fromatação onde desejado */
+h1{
+    font-size: 5em;
+    font-family: "God";
+}
+@font-face{
+    font-family: "Ancient";
+    src: url(Ancient-Medium.woff);
+}
+#second-title{
+    font-size: 5em;
+    font-family: "Ancient";
+}

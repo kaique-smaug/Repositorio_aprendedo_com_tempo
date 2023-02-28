@@ -1,0 +1,35 @@
+/* *{
+    border: 1px solid black;
+}
+h1{
+    font-size: 3em;
+} */
+ p.red{
+    color: red;
+} 
+ p#ponk{
+    color: pink;
+} 
+#header{
+ border: 1px solid black;
+}
+li>a{
+    display: inline-block;
+    position: relative;
+    color: red;
+    text-decoration: none;
+}
+.bedroom-link a:link, .bedroom-link a:visited {
+    text-decoration: none;
+    color:orangered ;
+    
+}
+.bedroom-link a:hover{
+    background-color: black;
+}
+h2+p{
+    background-color: aqua;
+}
+h3~p{
+    color: blue;
+}

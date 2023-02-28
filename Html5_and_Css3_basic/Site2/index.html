@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+</head>
+
+<body>
+    <h1>Produto</h1>
+    <!-- UIsando as tags que forma uma tabela -->
+    <table border="3" width="50%">
+        <!-- A tag tr cria a linha da tabela, e também é o corpo -->
+        <tr>
+            <!-- A tag th é aonde vai os dados da tabela EM FORMA DE NEGRITO -->
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <!-- A tag td é aonde vai os dados na tabela sem o negrito -->
+            <td>Notebook</td>
+            <td>001</td>
+            <td>4.999.</td>
+        </tr>
+        <tr>
+
+            <td>Ipad</td>
+            <td>002</td>
+            <td>2.000</td>
+        </tr>
+        <tr>
+            <td>TV</td>
+            <td>003</td>
+            <td>20.000</td>
+        </tr>
+        <tr>
+            <!--  O atributo rowspan/extensão da linha permite deixar uma linha para vários elementos -->
+            <th rowspan="3">Desconto</th>
+            <!-- O atrabuto colspan/extensão da coluna permite ocupar o espaço de 2 linhas -->
+            <td colspan="2">Cupom de -5%</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cupoom de -8% </td>
+        </tr>
+        <tr>
+            <td colspan="2">Cupom premium de -18%</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+a{
+    padding: 5px;
+}
+/* Não visitados e visitados */
+a:link, a:visited{
+    color: blue;
+    text-decoration: none;
+}
+/* a propriedadea:houver formata o link quando se passa o cursor em cima do link */
+a:hover{
+    color: black; 
+}
+/* A propridade a:active formata o link quando se click em cima do link */
+a:active{
+    color: red;
+}

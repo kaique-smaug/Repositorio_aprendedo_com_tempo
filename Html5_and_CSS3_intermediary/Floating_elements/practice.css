@@ -1,0 +1,22 @@
+body{
+    background-color: #f4f4f4 ;
+}
+.main{
+    border: 1px solid;
+    width: 920px;
+}
+.news{
+    padding: 5px;
+    width: 280px;
+    margin: 5px;
+    float: left;
+    
+}
+.clear{
+    clear: both;
+}
+.img{
+    width: 250px;
+    margin: 20px;
+    float: left;
+}

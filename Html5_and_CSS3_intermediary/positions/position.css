@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+}
+#container{
+    background-color: white;
+    padding: 10px;
+    margin: 10PX auto;
+    width: 800PX;
+   position: relative;
+    
+}
+p{
+    width: 300PX;
+    
+    background-color: white;
+    
+}
+/* A propriedade position tem os valores definidos como absolut, fixed, static and relative
+O valor padrão do position é static
+Ao usar o position temos que definir uma propriedade de deslocamento para movimentos o elemento como top, right, bottom, left
+O psosition relativo fica relative de acordo com o valor que definirmos   */
+.relative{
+    border: 1px solid red;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+/* A proriedade position absolut fica em cima do elemento do documento da página, saindo do fluxo do element 
+O posicionamento absolut é position em relação ao container que tenha uma posicão definida, senão vai ser posicionado em relacão ao body
+O absolute sempre vai ser setted up em relação ao container em que está dentro qu tenha o valor diferente de static*/
+.absolute{
+    border: 1px solid red;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+/* O SETTED UO fixid, deixa o elemento fixede em relacçao a janela do seu navegador   */
+.fixed{
+    border: 1px solid red;
+    position: fixed;
+    top: 0px;
+    right: 20px;
+}
+

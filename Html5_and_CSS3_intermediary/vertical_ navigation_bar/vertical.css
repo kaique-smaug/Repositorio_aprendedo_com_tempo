@@ -1,0 +1,38 @@
+/* Vertical navigetion bar */
+/* ul{
+    padding: 0px;
+    margin: 0;
+    list-style-type: none;
+}
+li{
+    padding: 5px 25px;
+    background: url(/arquivos-necessarios-barra-navegacao-vertical/arquivos-necessarios-barra-navegacao-vertical/seta.png) no-repeat left;
+} */
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li>a {
+    height: 40px;
+    width: 200px;
+    display: block;
+    /* A caso a imagem de fundo não carregue pode-se definir uma cor in background */
+    background: #f7b600 url(/arquivos-necessarios-barra-navegacao-vertical/arquivos-necessarios-barra-navegacao-vertical/menu.png) no-repeat left bottom;
+    text-decoration: none;
+    /* A propriedade text-ident identa the text */
+    text-indent: 40px;  
+    /* A propriedade line-height define a linha da altura do text */
+    line-height: 40px 
+    
+}  
+a:hover{
+    background-position: right bottom;
+    background-color: #f99200 ;
+    color: white;
+}
+#home #navigation .home>a, #about #navigation .about>a, #service #navigation .service a, #news #navigation .news>a, #contact #navigation .contact>a {
+    background-position: right bottom;
+    background-color: #f99200 ;
+    color: white;
+}

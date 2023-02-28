@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #fff url(/imagens-necessarias-site-noticias-cidade/imagens/fundo.png) repeat-x top left;
+    /* position: fixed; */
+}
+#container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+.top{
+    height:  150px;
+    padding-top: 40px;
+    background: url(/imagens-necessarias-site-noticias-cidade/imagens/detalhe-topo.png) no-repeat top right;
+}
+.soon{
+    width: 150px;
+    height: 66px;
+    text-indent: -500px;
+    background: url(/imagens-necessarias-site-noticias-cidade/imagens/logo.png) no-repeat center;
+}
+/* Bar navigation */
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.top ul {
+    margin-top: 30px;
+    float: left;
+    background: #b10333;
+}
+.top ul li {
+    float: left;
+}
+.top li a {
+    padding: 0.5em 1em;
+    display: block;
+    text-decoration: none;
+    line-height: 1em;
+    font-size: 1em;
+    color: #fff;
+    background: url(/imagens-necessarias-site-noticias-cidade/imagens/divisor.png) repeat-y top left;
+}
+.top ul .first  a{
+    background: none;
+}
+#navigation a:hover {
+ background: #69001d;
+ color: black;
+} 
+body.home #navigation a.home,
+body.brazil #navigation a.brazil,
+body#international #navigation a.international, 
+body#economy #navigation a.economy,
+body#health #navigation a.health, 
+body#science #navigation a.science,
+body.photo #navigation a.photo{
+    background: #de003e;
+    color: #fff;
+    cursor: text;
+}
+/* Configuring sidebar */
+#content{
+    background-color: #f5f5f5;
+    margin-top: 4em;
+    /* height: 800px; */
+
+}
+#clear{
+    clear: both;
+}
+.aside{
+    width: 150px;
+    float: left;
+    margin: 0 0 20px -800px ;
+    
+}
+/* Formatting side menu */
+a:link, a:visited{
+    color: #b10333;
+    padding: 5px;
+}
+a:hover{
+    color: #e50040;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.aside ul a{
+   color: #000;
+   padding: 3px;
+   display: block;
+   font-size: 1em;
+   line-height: 30px;
+   border-bottom: solid 1px #f3f3f3;
+   text-decoration: none; 
+}
+.aside ul a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(/imagens-necessarias-site-noticias-cidade/imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    margin: 0;
+}
+.second{
+    width: 300px;
+    float: left;
+    margin: 0 0 20px 25px;
+}
+/* Formatting content and images */
+.box .image-main img{
+    width: 95%;
+    border: 3px solid #dfdfdf;
+    /* box-shadow: red; */
+}
+.box #third-title-secondary {
+    background-color: red;
+    color: #fff;
+    display: inline;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+.box #third-titlemain{
+    background: #870529;
+    color: #fff;
+    display: inline;
+    text-transform: uppercase;
+    padding: 3px;
+}
+#tre-column #primary{
+    width: 300px;
+    float: left;
+    margin: 0 0 20px 175px;
+}
+#two-column #primary{
+    width: 625px;
+    float: left;
+    margin: 0 0 20px 175px;
+}
+#one-column .second {
+    width: 800px;
+    margin: 0 auto;
+}
+/* Footer */
+#content-footer{
+    background: #294c71;
+    clear: both;
+    display: flex;
+    padding: 20px;
+}
+/* Aside */
+.box{
+    background: #f3f3f3 url(/imagens-necessarias-site-noticias-cidade/imagens/fundo-caixa.png);
+    padding: 5px ;
+    margin: 10px  0;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    font-size: 1em;
+    border: 1px solid #870529;
+    width: 130px;
+    padding: 5px 0;
+}
+
+.box .submit input{
+    width: 85px;
+    margin-top: 10px;
+    border: 2px solid #870529;
+    background-color: #b10333;
+}
+.box .submit input:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+h2 {
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+
+}
+.content-box {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+    /* Formatting list in news */
+.list-news li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    text-decoration: none;
+    height: 62px;
+}
+.box .list-news img{
+    width: 80px; 
+    float: left; 
+    margin: 5px; 
+}
+.list-news li a{
+   text-decoration: none;
+   font-size: 0.8em; 
+}
+.list-news li a h3{
+   color: blue;
+ }
+ .list-news li a p{
+    color: #000;
+ }
+ .list-news li:hover{
+    background: #eee;
+    cursor: pointer;
+ }
+#footer{
+    width: 800px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}

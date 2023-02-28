@@ -1,0 +1,26 @@
+#name{
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#idade{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#sexo{
+    width: 150px;
+    border-radius: 10px;
+}
+#p_cadastro{
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+#button{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background: rgb(61, 102, 204);
+}

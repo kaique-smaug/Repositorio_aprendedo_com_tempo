@@ -1,0 +1,76 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+#container{
+  width: 90%; /*800px*/
+  margin: 0 auto;
+  background: #fff;
+  /* A propeiedade min whidht define a largura mínina do content */
+  min-width: 800px;
+}
+#brand{
+   height: 200%; /*100px*/
+   text-align: center;
+   background: #225991 url(/arquivos-necessarios-imagens-liquidas/arquivos-necessarios-imagens-liquidas/cabecalho2.jpg) no-repeat center;
+   line-height: 200px;
+}
+#content{
+    border: solid 1px black;
+    width: 76% ; /*590px*/
+     /*Contente whit navigation oa todo é 770px*/
+    float: right;
+}
+#navigation{
+    width: 23%; /*180px*/
+    float: left;
+   padding: 35px 0;
+   background: #d1d1d1;
+}
+img.image{
+    /* A propiedade overflow esconde o content que ultrapassar da page */
+    /* overflow: hidden; */
+    width: 96%;
+    padding: 2%;
+}
+.content-primary{
+    width: 400px;
+    float: left;
+}
+.content-second{
+   
+    width: 180px;
+    float: right;
+}
+.content-second h1,
+.content-second h2,
+.content-second p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#navigation li {
+    list-style: none;
+}
+#navigation li a {
+   text-decoration: none;
+}
+ul{
+    padding: 0;
+   margin: 0;
+}
+li a{
+    height: 25px;
+    text-indent: 25px;
+    line-height: 25px;
+    display: block;
+}
+a:hover{
+    background-color: #c4c4c4;
+    color: black;
+}
+#footer{
+    padding: 5px;
+    clear: both;
+    text-align: center;
+    background: #c4c4c4;
+}

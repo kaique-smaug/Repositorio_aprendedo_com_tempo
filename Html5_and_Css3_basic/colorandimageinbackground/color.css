@@ -1,0 +1,11 @@
+.background{
+    /* Essa propiedade nos permite colocar uma imagem de fundo em qualquer elemento */
+    background-image: url(/imagem/yoshi.png);
+    /* Essa propriedade nos permite não repetir os elementos com valores:   no-repeat, repeat, repeat-x, repeat-y */
+    background-repeat: no-repeat ;
+    /* Essa propriedade nos permite definir a posicão da imagem */
+    background-position: center;
+    /* Esa propriedade nos prmite definir a anexacão doa image */
+    background-attachment: fixed;
+
+}

@@ -1,0 +1,38 @@
+.background{
+    background-image: url(/imagens/fundo.png);
+    background-attachment: fixed;
+    font: 15px arial, helvetica, sans-serif;
+    width: 900px;
+    
+}
+.main{
+    width: 900;
+    
+}
+.header{
+   background: #c5c5b2;
+   padding: 10px;
+}
+.a{
+    color: #4b566a;
+    padding: 5px;
+    text-decoration: none;
+}
+.content{
+    background-color: white;
+    padding: 15px;
+}
+.footer{
+    font-style:italic ;
+    text-align: center;
+}
+h1{
+    color: #4b566a;
+    font-size: 1em;
+}
+.borderimg{
+    border: solid 10px #c3c3ae
+}
+#contact{
+    text-align: center;
+}

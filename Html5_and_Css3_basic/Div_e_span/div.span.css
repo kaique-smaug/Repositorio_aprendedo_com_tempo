@@ -1,0 +1,25 @@
+.header {
+
+    background-color: blue;
+}
+
+.content {
+    background-color: aqua;
+}
+
+.product {
+    background-color: gray;
+    margin: 10px;
+}
+
+.footer {
+    background-color: blue;
+    text-align: center;
+    padding: 25px;
+}
+
+.subfooter {
+    text-align: center;
+    background-color: forestgreen;
+   
+}

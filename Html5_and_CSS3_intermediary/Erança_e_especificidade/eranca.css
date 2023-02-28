@@ -1,0 +1,31 @@
+/* Herança */
+/* body{
+    color: blue;
+    background-color: black;
+    font-size: 20px;
+} */
+/* Especificidade */
+/* Se tiver dois seletores com a mesma tag o que vir por ultimo é que vai predominar */
+p{
+    color: pink;
+}
+p{
+    color: blue;
+}
+/* Se um seletor for mais específico que outro a regra específica será aplicada (terá precedência sobre regra mais gerais */
+*{
+    color: blue;
+}
+/* Se tiver o impotant o que vai predominar é ele, poruqe ele define o seletor como important, mas nãoi é recomendado usar ele  */
+h1{ /*3*/
+    background-color: black;
+    color: antiquewhite !important;
+}
+h1.pink{/*2*/
+    color: pink;
+}
+/* No caso do id, o id sempre vai predominar no código. Porque ele é muito mais específico
+do que o class */
+h1#orange{ /*1*/
+    color: orange;
+}

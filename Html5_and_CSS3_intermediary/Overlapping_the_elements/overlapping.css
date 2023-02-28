@@ -1,0 +1,30 @@
+.contentone{
+    background-color: aqua;
+    border: solid 1px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* A propriedade define qual elemento aparece primeiro, quanto maior o valor da propriedade mais a frente ele aparece */
+    z-index: 2;
+}
+.contenttwo{
+    background-color: black;
+    color: white;
+    border: solid 1px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+.thirdcontent{
+    background-color: blue;
+    border: solid 1px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index: 0;
+}

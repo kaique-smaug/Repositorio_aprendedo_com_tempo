@@ -1,0 +1,17 @@
+/* Para pegar o elemento através do ID basta usar a # com o nome desejado, e também só pode ser usado uma vez para apenas um unico elemento*/
+#container{
+    background-color: gray;
+}
+.title{
+    color: aqua;
+}
+/* Para pegar o elemento através da class basta usar o ponto com o nome desejado, e também pode ser aplicado em diversos elemtos */
+.paragraph{
+    color: green;
+}
+.subtitle{
+    color: blue;
+}
+.secondParagraph{
+    color: rgb(229, 183, 15);
+}

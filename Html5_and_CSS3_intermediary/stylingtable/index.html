@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Styling Form</title>
+</head>
+<body>
+    <h2>Stiling Form</h2>
+    
+    <form>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+            </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                    <div>
+                        <label for="url">URL:</label>
+                        <input type="text" name="url" id="url">
+                    </div>
+        </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+            <div>
+                <label for="message">Message:</label>
+                <textarea name="message" id="" cols="30" rows="10" id="message"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <!-- Legend exerce uma função de uma legende para agrupamento de text semelhantes  -->
+                <legend>Do you remember me</legend>
+                <!-- label exerce the function de uma label para a identificação de box text -->
+                <label>
+                    <input class="radio" type="radio" name="lembrar" id="sim">Sim
+                </label>
+            </div>  
+                <div>
+                    <label>
+                        <input class="radio" type="radio" name="lembrar" id="nao">Não
+                    </label>
+                </div>    
+        </fieldset>
+    </form>
+</body>
+</html>

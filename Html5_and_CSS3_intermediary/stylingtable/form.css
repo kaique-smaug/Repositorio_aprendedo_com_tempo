@@ -1,0 +1,21 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+fieldset{
+   padding: 1em;
+   border: 1px solid #ccc;
+   background: #f8f8f8;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+    /* cursor: progress; */
+}
+input [type="text"] {
+    width: 300px;
+}
+.radio{
+  margin-right: 1em;
+}

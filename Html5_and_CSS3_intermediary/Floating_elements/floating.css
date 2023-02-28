@@ -1,0 +1,28 @@
+.main{
+    background-color: blue;
+    border: solid 5px;
+}
+.content {
+    background-color: aqua;
+    border: solid 1px;
+    width: 100px;
+    padding: 50px;
+    height: 100px;
+    margin: 10px;
+    /* A propriedade float faz com que os elementos flutuem sobre o document, com os valores */
+    float: right;
+    /* margin-inline: 50px; */
+}
+/* .content-zero{
+    background-color: red;
+    border: solid 1px;
+    padding: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+} */
+.clear{
+    /* A propriedade clear faz com que limpe o fluxo do elemento */
+    clear: both;
+}

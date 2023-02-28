@@ -1,0 +1,57 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content{
+    text-align: justify;
+    padding: 50px 80px;
+    color: #777;
+ 
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+p{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+/* Paralax */
+#box1, #box2, #box3, #box4 {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+#box1{
+    background-image: url(/arquivos-necessarios-parallax/imagens/imagem1.jpg);
+}
+#box2{
+    background-image: url(/arquivos-necessarios-parallax/imagens/imagem2.jpg);
+
+}
+#box3{
+    background-image: url(/arquivos-necessarios-parallax/imagens/imagem3.jpg);
+}
+#box4{
+    background-image: url(/arquivos-necessarios-parallax/imagens/imagem4.jpg);
+}
+.content-title{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+.content-title span.title, .content-title span.title2, .content-title span.title3, .content-title span.title4{
+    color: #fff;
+    background-color: #111;
+    padding: 19px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}

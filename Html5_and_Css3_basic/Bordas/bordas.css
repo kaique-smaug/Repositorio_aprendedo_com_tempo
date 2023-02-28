@@ -1,0 +1,7 @@
+.border{
+    /* Border: borda, aplicado para definir uma borda para a caixa, pode usa-se os valores em px cores e style para ela como: solid, dashed, groove, double, outset */
+    /* border: 15px solid blue; */
+    border-color: black;
+    border-width: 20px;
+    border-style: double;
+}

@@ -1,0 +1,41 @@
+/* .content {
+    border: solid 1px;
+    width: 100px;
+    O padding define o espaçamento interno d caixa */
+    /* padding-top: 40px; */
+    /* padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px; */ 
+    /* Ou podemos definir o padding como no exemplo abaixo 
+    10px para a parte superior
+    30px para a direita
+    10px para a parte inferior
+    30px para a esquerda*/
+    /* padding: 10px 30px 10px 30px; */
+    /* Ou também podemos definir o "padding" como no exemplo abaixo 
+    40px para parte superior e inferior
+    20px para esquerda e para direita*/
+    /* padding: 40px 20px; */
+    /* Usamos margin para espaçamentos externos/em volta da caixa */
+    /* margin: 30px; */
+    /* Ou usamos margin dessa maneira */
+    /* margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 60px; */
+    /* Ou também podemos usar a margin como no exemplo abaixo 
+    10px para aparte superior
+    50px para a direita
+    10 para parte inferior
+    50px para direita*/
+    /* margin: 10px 50px 10px 50px; */
+    /* padding: 10px;
+    margin: 10px;
+
+} 
+.content2{
+    border: solid 1px;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+} */
